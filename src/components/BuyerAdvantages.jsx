@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { toast } from '@/components/ui/use-toast';
 // Cambia la importación del icono:
-import { Phone } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 
 const BuyerAdvantages = () => {
   return (
@@ -33,12 +33,13 @@ const BuyerAdvantages = () => {
               whileTap={{ scale: 0.95 }}
             >
               <Button
-                size="lg"
+                
+                as="a"
                 className="bg-white text-purple-600 hover:bg-gray-200 text-lg font-bold py-8 px-10 shadow-lg"
-                 href="tel:123456789"
+                href="mailto:cristobalamat.ca@gmail.com"
               >
                 {/* Cambia el icono aquí */}
-                <Phone className="mr-3 h-6 w-6" />
+                <Mail className="mr-3 h-6 w-6" />
                 Contáctanos
               </Button>
             </motion.div>
