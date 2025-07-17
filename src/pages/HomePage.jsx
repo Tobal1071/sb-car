@@ -8,6 +8,9 @@ import CarCard from '@/components/CarCard';
 import SellerAdvantages from '@/components/SellerAdvantages';
 import BuyerAdvantages from '@/components/BuyerAdvantages';
 import Footer from '@/components/Footer';
+import NuestroObjetivo from '../components/NuestroObjetivo';
+import SobreNosotros from '../components/SobreNosotros';
+import AboutUsAndGoal from '../components/AboutUsAndGoal';
 
 const HomePage = ({ cars, onShowAddForm, onSelectCar }) => {
   const [filteredCars, setFilteredCars] = useState(cars);
@@ -85,6 +88,7 @@ const HomePage = ({ cars, onShowAddForm, onSelectCar }) => {
       </main>
       <SellerAdvantages />
       <BuyerAdvantages />
+     <AboutUsAndGoal />
       <Footer />
     </>
   );
