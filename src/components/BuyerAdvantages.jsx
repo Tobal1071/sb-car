@@ -18,9 +18,10 @@ const BuyerAdvantages = () => {
         >
           <div className="absolute -top-10 -right-10 w-48 h-48 bg-white/10 rounded-full opacity-50"></div>
           <div className="absolute -bottom-16 -left-10 w-64 h-64 bg-white/10 rounded-full opacity-50"></div>
-          
+
           <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="text-center lg:text-left">
+
               <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
                 ¿No encuentras tu coche ideal?
               </h2>
@@ -32,16 +33,13 @@ const BuyerAdvantages = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Button
-                
-                as="a"
-                className="bg-white text-purple-600 hover:bg-gray-200 text-lg font-bold py-8 px-10 shadow-lg"
-                href="mailto:cristobalamat.ca@gmail.com"
+              <a
+                href="mailto:contacto.sbcars@gmail.com"
+                className="inline-flex items-center bg-white text-purple-600 hover:bg-gray-200 text-lg font-bold py-8 px-10 shadow-lg rounded-full"
               >
-                {/* Cambia el icono aquí */}
                 <Mail className="mr-3 h-6 w-6" />
                 Contáctanos
-              </Button>
+              </a>
             </motion.div>
           </div>
         </motion.div>
@@ -51,3 +49,4 @@ const BuyerAdvantages = () => {
 };
 
 export default BuyerAdvantages;
+
