@@ -14,6 +14,6 @@ export const SvgLogo = ({ className }) => (
     </style>
     <text x="10" y="55" className="sb-s">S</text>
     <text x="50" y="55" className="sb-b">B</text>
-    <text x="100" y="55" className="sb-cars">CARS</text>
+    <text x="95" y="55" className="sb-cars">CARS</text>
   </svg>
 );

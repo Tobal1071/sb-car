@@ -6,15 +6,13 @@ import { SvgLogo } from '@/components/SvgLogo';
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <Facebook className="h-5 w-5" />, name: 'Facebook' },
+   // { icon: <Facebook className="h-5 w-5" />, name: 'Facebook' },
     { icon: <Instagram className="h-5 w-5" />, name: 'Instagram' },
-    { icon: <Twitter className="h-5 w-5" />, name: 'Twitter' },
+   // { icon: <Twitter className="h-5 w-5" />, name: 'Twitter' },
   ];
 
   const handleSocialClick = () => {
-    toast({
-      title: "🚧 Esta función no está implementada aún—¡pero no te preocupes! ¡Puedes solicitarla en tu próximo prompt! 🚀"
-    });
+    window.open("https://www.instagram.com/sb.cars._?igsh=MWhrZHl3bHYyYWIyNQ%3D%3D", "_blank");
   };
 
   return (
