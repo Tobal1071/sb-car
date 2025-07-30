@@ -1,51 +1,35 @@
 export const sampleCars = [
-  /*
+  
   {
     id: 1,
-    title: 'BMW Serie 3 320d',
-    brand: 'BMW',
-    model: 'Serie 3',
-    year: 2020,
-    price: 28500,
-    mileage: 45000,
-    fuel: 'Diésel',
-    transmission: 'Automático',
-    location: 'Madrid',
-    description: 'Vehículo en excelente estado, revisiones al día, único propietario.',
-    images: ['https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop'],
-    featured: true,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: 2,
-    title: 'Audi A4 2.0 TDI',
-    brand: 'Audi',
-    model: 'A4',
-    year: 2019,
-    price: 32000,
-    mileage: 38000,
-    fuel: 'Diésel',
-    transmission: 'Manual',
-    location: 'Barcelona',
-    description: 'Perfecto estado, full equip, libro de mantenimiento completo.',
-    images: ['https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=600&fit=crop'],
-    featured: false,
-    createdAt: new Date().toISOString()
-  },
-  {
-    id: 3,
-    title: 'Mercedes-Benz Clase C',
-    brand: 'Mercedes-Benz',
-    model: 'Clase C',
+    title: 'FORD Transit Courier Van 1.5 TDCi Trend🚐',
+    brand: 'FORD',
+    model: 'Transit Courier Van 1.5',
     year: 2021,
-    price: 42000,
-    mileage: 25000,
+    price: 14300,
+    mileage: 10803,
     fuel: 'Gasolina',
-    transmission: 'Automático',
-    location: 'Valencia',
-    description: 'Como nuevo, garantía oficial, equipamiento premium.',
-    images: ['https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=600&fit=crop'],
+    transmission: 'Manual',
+    location: 'Toda España',
+description: `Luces compartimento de carga – LED Radio SYNC3 con pantalla TFT 4″ + Bluetooth
+Sensor de Lluvia + Autoencendido de luces
+Blanco sólido
+Luces de lectura delanteras
+Luz en el maletero
+Testigo de cinturones ( uno )
+Faros con lente de superficie compleja, bombilla halógena y luz larga con bombilla halógena
+Regulación de los faros con ajuste de altura manual y sensor de luz ambiental
+Luces antiniebla delanteras
+Cierre centralizado con mando a distancia y doble cierre
+Volante multi-función de aleación y cuero ajustable en altura y en profundidad
+Dirección asistida
+Sistema de ventilación con filtro de pólen
+Aire acondicionado
+Limpiaparabrisas delantero con intermitencia variable y sensor de lluvia
+Elevalunas eléctricos delanteros con uno de ellos de un solo toque`,
+    images: ['./public/assets/sb-car-ford-furgoneta.webp' , './public/assets/sb-car-ford-furgoneta-2.jpeg' , './public/assets/sb-car-ford-furgoneta-3.jpeg' , './public/assets/sb-car-ford-furgoneta-4.jpeg' , './public/assets/sb-car-ford-furgoneta-5.jpeg' , './public/assets/sb-car-ford-furgoneta-6.jpeg' , './public/assets/sb-car-ford-furgoneta-7.jpeg' , './public/assets/sb-car-ford-furgoneta-8.jpeg' , './public/assets/sb-car-ford-furgoneta-9.jpeg' , './public/assets/sb-car-ford-furgoneta-10.jpeg' , './public/assets/sb-car-ford-furgoneta-11.jpeg' , './public/assets/sb-car-ford-furgoneta-12.jpeg' , './public/assets/sb-car-ford-furgoneta-13.jpeg' , './public/assets/sb-car-ford-furgoneta-14.jpeg' , './public/assets/sb-car-ford-furgoneta-15.jpeg' , './public/assets/sb-car-ford-furgoneta-16.jpeg' , './public/assets/sb-car-ford-furgoneta-17.jpeg' ],
     featured: true,
     createdAt: new Date().toISOString()
-  }*/
+  }
+  
 ];

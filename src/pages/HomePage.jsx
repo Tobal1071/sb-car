@@ -86,10 +86,8 @@ const HomePage = ({ cars, onShowAddForm, onSelectCar }) => {
           </motion.div>
         )}
       </main>
-      <SellerAdvantages />
-      <BuyerAdvantages />
-     <AboutUsAndGoal />
-      <Footer />
+      
+      
     </>
   );
 };

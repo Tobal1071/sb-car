@@ -17,15 +17,8 @@ function App() {
   
 
   useEffect(() => {
-    const savedCars = localStorage.getItem('carMarketplace');
-    if (savedCars) {
-      const parsedCars = JSON.parse(savedCars);
-      setCars(parsedCars);
-    } else {
-      setCars(sampleCars);
-      localStorage.setItem('carMarketplace', JSON.stringify(sampleCars));
-    }
-  }, []);
+  setCars(sampleCars);
+}, []);
 
   const handleAddCar = (carData) => {
     const newCar = {
@@ -37,7 +30,7 @@ function App() {
 
     const updatedCars = [newCar, ...cars];
     setCars(updatedCars);
-    localStorage.setItem('carMarketplace', JSON.stringify(updatedCars));
+
     setShowAddForm(false);
 
     toast({

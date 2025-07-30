@@ -51,7 +51,7 @@ const CarCard = ({ car, index, onSelectCar }) => {
         
         <div className="p-6">
           <div className="flex justify-between items-start mb-3">
-            <h3 className="text-xl font-bold text-white group-hover:text-blue-300 transition-colors">
+            <h3 className="text-xl font-bold text-gray-600 group-hover:text-blue-300 transition-colors">
               {car.title}
             </h3>
             <span className="text-2xl font-bold text-green-400">
@@ -59,7 +59,7 @@ const CarCard = ({ car, index, onSelectCar }) => {
             </span>
           </div>
           
-          <div className="grid grid-cols-2 gap-3 mb-4 text-sm text-gray-300">
+          <div className="grid grid-cols-2 gap-3 mb-4 text-sm text-gray-600">
             <div className="flex items-center">
               <Calendar className="h-4 w-4 mr-2 text-blue-400" />
               {car.year}
