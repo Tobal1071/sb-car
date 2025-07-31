@@ -63,27 +63,7 @@ const Header = ({
                 Filtros
               </Button>
 
-              {isAdmin ? (
-                <>
-                  <Button onClick={onShowAddForm} className="bg-app-accent text-white hover:bg-app-accent/90">
-                    <Plus className="h-4 w-4 mr-2" />
-                    Vender Coche
-                  </Button>
-                  <Button onClick={handleAdminLogout} variant="outline" className="text-red-600 border-red-600/30 hover:bg-red-600/10">
-                    <LogOut className="h-4 w-4 mr-2" />
-                    Salir
-                  </Button>
-                </>
-              ) : (
-                <Button
-                  onClick={() => setShowLogin(true)}
-                  variant="outline"
-                  className="text-green-600 border-green-600/30 hover:bg-green-600/10"
-                >
-                  <LogIn className="h-4 w-4 mr-2" />
-                  Acceso Admin
-                </Button>
-              )}
+              
             </motion.div>
           </div>
         </div>
